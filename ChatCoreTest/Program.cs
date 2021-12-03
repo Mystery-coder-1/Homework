@@ -20,10 +20,7 @@ namespace ChatCoreTest
             Write("Hello!");
             byte[] lengthData = WriteLength(m_Pos);
 
-            for (int i = 0; i < 4; i++)
-            {
-                Console.WriteLine(lengthData[i]);   
-            }
+       
        
             for (int i = 0; i < m_Pos + 4; i++)
             {
